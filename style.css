@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+}
+.card{
+    width: 400px;
+    min-height: 100px;
+    padding: 20px;
+    background:rgb(133 248 255 / 100%);
+    position: relative;
+    border-radius: 15px;
+}
+.card .title{
+    color: #080809;
+    font-size: 25px;
+    font-weight: 700;
+}
+.card .content{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #04102e;
+    font-size: 18px;
+    background: #3efd33;
+    padding: 16px;
+    border-radius: 30px;
+    display: none;
+}
+
+.card .action {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card .valid {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: #288506;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+@media (max-width: 576px) {
+    .card{
+        width: 300px;
+    }
+
+
+}
+@media (min-width: 768px) {
+
+    .card{
+        width: 300px;
+    }
+
+
+}
+@media (min-width: 992px) {
+
+    .card{
+        width: 330px;
+    }
+
+}
+@media (min-width: 1200px) {
+    .card{
+        width: 350px;
+    }
+
+}
